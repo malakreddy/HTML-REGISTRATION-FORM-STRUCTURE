@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="enter name" name="name"><br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter email" name="email"><br>
+        <br>
+
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" placeholder="enter password" name="pwd"><br>
+        <br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="enter phone number" name="phone"><br>
+        <br>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" placeholder="enter website URL" name="website"><br>
+        <br>
+
+        <label for="search"> search course</label>
+        <input type="search" placeholder="search course" name="search"><br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>other details:</legend>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="enter age" name="age"><br>
+        <br>
+
+        <label for="DOB">DOB:</label>
+        <input type="date" id="DOB" name="DOB"><br>
+        <br>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time"><br>
+        <br>
+
+        <label for="meeting-date">Meeting Date & Time:</label>
+        <input type="datetime-local" id="meeting-date" name="meeting-date"><br>
+        <br>
+
+        <label>gender:</label>
+        <input type="checkbox" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="checkbox" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="sports" value="sports">
+        <label for="sports">Sports</label><br>
+        <br>
+        <label for="red">Favourite color:</label>
+        <input type="color" id="red" name="color" value="red"><br>
+        <br>
+        <label for="skill">Skill level:</label>
+        <input type="range" id="skill" name="skill" min="0" max="5"><br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+        <label>Selection</label>
+        <select name="courses" id="courses">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select><br>
+        <br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="enter city"><br>
+        <br>
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Comments</legend>
+        <label for="comments"></label>
+        <textarea id="comments" name="comments" placeholder="write your comments" rows="5" cols="40"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+        <button type="button" disabled>Disabled</button>
+
+
+        
+    </form>
+    
+</body>
+</html>
